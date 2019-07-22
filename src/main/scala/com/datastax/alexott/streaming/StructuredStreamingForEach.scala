@@ -51,7 +51,7 @@ class CassandraSinkForeach() extends ForeachWriter[org.apache.spark.sql.Row] {
   }
 }
 
-object StructuredStreaming {
+object StructuredStreamingForEach {
 
   def main(args: Array[String]): Unit = {
 
